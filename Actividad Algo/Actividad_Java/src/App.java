@@ -24,10 +24,8 @@ public class App {
         int cantidad = ListAnalyzer.contadorImpares(miLista);
 
         System.out.println( "Cantidad de numeros impares: " + cantidad ); 
-        // Salida: Cantidad de núemeros impares: 3
 
         List<Integer> numConsecutivos = ListAnalyzer.numerosConsecutivos(miLista);
         System.out.println("Numeros consecutivos de la lista: " + numConsecutivos);
-        //Salida: Números consecutivos de la lista: [8, 9, 12, 13]
     }
 }
